@@ -24,7 +24,7 @@ class UserRegisterView(APIView):
             user.token = token
             user.save()
             send_email(user.email,
-                       context={"product": "İnterpreter Management System", "frontend_url": "http://localhost:3000",
+                       context={"product": "Interpreter Management System", "frontend_url": "http://localhost:3000",
                                 "token": token},
                        template_name="emailtemplates/confirm-email.html",
                        subject='Interpreter Management System - Email Verification')
