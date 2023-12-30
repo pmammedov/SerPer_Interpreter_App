@@ -1,0 +1,42 @@
+{
+  "name": "upwind",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@iconscout/react-unicons": "^2.0.2",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.6.2",
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.6",
+    "next": "^13.5.6",
+    "next-translate": "^2.6.2",
+    "postcss": "^8.4.31",
+    "react": "^18.2.0",
+    "react-18-image-lightbox": "^5.1.4",
+    "react-countup": "^6.4.2",
+    "react-modal-video": "^2.0.1",
+    "react-popper": "^2.3.0",
+    "react-scroll": "^1.8.9",
+    "react-slick": "^0.29.0",
+    "sass": "^1.63.6",
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "3.3.2",
+    "tiny-slider-react": "^0.5.7",
+    "typed.js": "^2.0.16"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "@babel/preset-react": "^7.23.3",
+    "next-translate-plugin": "^2.6.2",
+    "node-sass": "^9.0.0",
+    "postcss-cli": "^10.1.0"
+  }
+}
